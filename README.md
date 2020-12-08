@@ -1,4 +1,4 @@
-## Cara Menjalankan
+#### Cara Menjalankan
 
 ``` shell
 docker-compose up -d
@@ -8,7 +8,7 @@ docker-compose up -d
 server running on localhost:8080
 ```
 
-## Manage Mysql by Terminal
+#### Manage Mysql by Terminal
 ```shell
 docker-compose exec mysql bash 
 mysql -u root -p

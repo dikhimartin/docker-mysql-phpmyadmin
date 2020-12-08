@@ -9,7 +9,7 @@ docker-compose up -d
 server running on localhost:8080
 ```
 
-#### Manage Mysql by Terminal
+#### Manage Mysql
 ```shell
 docker-compose exec mysql bash 
 mysql -u root -p

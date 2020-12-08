@@ -12,6 +12,8 @@ services:
       - MYSQL_DATABASE=${DB_NAME:-database}
       - MYSQL_USER=${DB_USER:-user}
       - MYSQL_PASSWORD=${DB_PASS:-user}
+    ports: 
+      - 6612:3306
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin

@@ -14,3 +14,4 @@ docker-compose exec mysql bash
 mysql -u root -p
 Enter password: root
 ```
+

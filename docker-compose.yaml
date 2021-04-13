@@ -13,7 +13,7 @@ services:
       - MYSQL_USER=${DB_USER:-user}
       - MYSQL_PASSWORD=${DB_PASS:-user}
     ports: 
-      - 6612:3306
+      - 8812:3306
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -26,4 +26,4 @@ services:
       PMA_ARBITRARY: 1
     restart: always
     ports:
-      - 8183:80
+      - ${APP_PORT:-8080}:80
